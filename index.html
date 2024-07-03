@@ -10,9 +10,10 @@
   <body>
     <main>
       <h1>English or Spanish?</h1>
-      <audio controls autoplay>
-      <source src="music.mp3" type="audio/mpeg">
-      </audio>
+      <audio id="myAudio" controls autoplay src="music.mp3" type="audio/mpeg"></audio>
+      <script>
+        document.getElementById('myAudio').style.display = 'none';
+      </script>
     </main>
   </body>
   
