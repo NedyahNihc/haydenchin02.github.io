@@ -1,9 +1,20 @@
-main {
+body {
     width: 100%;
-  }
-  
-  h1 {
+    height: 3000px;
     font-family: sans-serif;
-    text-align: center;
   }
   
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  height: 2900px;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
